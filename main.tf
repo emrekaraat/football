@@ -7,3 +7,6 @@ terraform {
   }
 }
 
+# Creating VPC
+resource "aws_vpc" "wordpress-vpc" {
+}
